@@ -1,0 +1,239 @@
+baseURL: "https://purplelightstudios.github.io/"
+languageCode: "en-us"
+theme: "tailbliss"
+
+title: PurpleLight Studios
+languageCode: en-us
+DefaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+darkmode_js:
+  - assets/js/darkmode.js
+enableInlineShortcodes: true
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  ShowFullIntroVideoSlide: true
+  ShowFullIntroSlide: false
+  ShowSimpleIntroSlide: false
+  ShowSponsors: false
+  IncludeStars: true
+  NavbarSizeClass: max-w-full
+  DisableStayUptodate: false
+
+  GeneralHtmlClass: dark # Set to dark and DisableThemeToggle to run theme in dark mode by default
+  DisableThemeToggle: true
+
+  title_description: "Empowering programmers"
+  callToAction: Streaming Tech
+  heroImage: /game.png
+  author: PurpleLight Studios
+  authorimage: ../assets/images/global/author.webp
+  og_image: /images/tailbliss-cover.png
+  moto: "For a new age"
+  description: "Engage with your enterprise clients or your community followers using the best streaming solutions in the market. Simplify your technology stack without compromising quality."
+
+  FullIntroVideo:
+    VideoUrl: https://videos.pexels.com/video-files/8303104/8303104-hd_1920_1080_24fps.mp4
+    VideoType: video/mp4
+    QuoteTitle: "Empowering"
+    Quotes: "Content creators, Web developers, Streamers, Innovators, Game developers"
+
+  details:
+    heading: "About us"
+    image: "/game-2.png"
+    content:
+      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
+      - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
+      - text: "TODO: More about us... BUTTON"
+  moreDetails:
+    heading: "Hand-made solutions for game developers"
+    image: "/geppetto-ai.png"
+    content:
+      - text: "We believe that programming is about solving real problems, that is why our code is rocksolid while being fast and easy to understand. Our team has worked on different platforms, engines and toolkits including Unity an Unreal Engine."
+      - text: "With that experience, we have started our journey of building a C powered game engine."
+      - text: "Stay tunned for upcoming updates."
+  sponsors:
+    heading: "Backed by world-renowned investors"
+    content:
+      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
+    links:
+      - text: Meet our investors and advisors
+        url: "#"
+    logos:
+      - identifier: a
+        image: "images/global/sample-logo.svg"
+        alt: "a"
+      - identifier: b
+      - identifier: c
+      - identifier: d
+      - identifier: e
+      - identifier: f
+  fromTheBlog:
+    heading: "From the blog"
+    content:
+      - text: "News, releases and devlogs."
+
+  stayUpToDate:
+    heading: "Stay Up to Date"
+    content:
+      - text: "Follow us and get access to amazing open-source technology!"
+    showForm: false
+    showSocial: true
+    action: "#"
+    label: "Email address"
+    placeholder: "Enter your email"
+    button: "Notify me"
+
+  social:
+    github:
+      enabled: true
+      url: 'https://github.com/purplelightstudios'
+    facebook:
+      enabled: true
+      url: 'https://facebook.com/purplelightstudios'
+    instagram:
+      enabled: false
+      url: 'https://instagram.com/purplelightstudios'
+    linkedin:
+      enabled: true
+      url: 'https://www.linkedin.com/company/purplelightstudios'
+    twitter:
+      enabled: true
+      url: '@purplelightstudios'
+
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 20
+    - identifier: dropdown
+      pre: complexdropdown
+      name: Open-Source
+      weight: 40
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+    - identifier: legal
+      name: Legal
+      url: /legal/
+      weight: 60
+  categories:
+    - identifier: prose
+      name: Prose
+      url: /prose/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+  dropdown:
+    - identifier: github
+      pre: piechart # can be stars, comments or piechart
+      name: Custom OBS
+      post: "GitHub repo"
+      url: "https://github.com/purplelightstudios/obs-studio-optimized"
+      weight: 10
+    - identifier: githubgs
+      pre: stars # can be stars, comments or piechart
+      name: Other projects
+      post: "GitHub profile"
+      url: "https://github.com/purplelightstudios"
+      weight: 20
+  footer:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 20
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+    - identifier: legal
+      name: Legal
+      url: /legal/
+      weight: 60
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: true
+    simple: false
+  twitter:
+    disable: true
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.104.0"

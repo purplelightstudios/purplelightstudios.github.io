@@ -1,0 +1,98 @@
+/* assets */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+
+.bg-black {
+  background-color: #000;
+}
+
+.text-shadow {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.text-shadow-2 {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.bg-stars {
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  overflow: hidden;
+}
+
+.prose :where(h1):not(:where([class~="not-prose"] *)) {
+    color: white !important;
+}
+
+@keyframes tv-animated {
+	0% {
+		filter: brightness(10%);
+	}
+	5% {
+		filter: brightness(130%);
+	}
+	10% {
+		filter: brightness(80%);
+	}
+	15% {
+		filter: brightness(85%);
+	}
+	25% {
+		filter: brightness(100%);
+	}
+	30% {
+		filter: brightness(120%);
+	}
+	35% {
+		filter: brightness(80%);
+	}
+	40% {
+		filter: brightness(90%);
+	}
+	45% {
+		filter: brightness(70%);
+	}
+	60% {
+		filter: brightness(100%);
+	}
+	70% {
+		filter: brightness(120%);
+	}
+	80% {
+		filter: brightness(80%);
+	}
+	90% {
+		filter: brightness(70%);
+	}
+	100% {
+		filter: brightness(10%);
+	}
+}
+
+@keyframes bg-xy-animated {
+  50% { background-position: bottom left; }
+}
+
+.bg-xy-animated {
+  background-position: top left;
+  animation: bg-xy-animated 60s linear infinite;
+}
+
+:is(.dark) .bg-sky {
+  background-image: url('https://images.unsplash.com/photo-1533113354171-490d836238e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1980&q=90');
+}
+
+.bg-sky {
+  background-image: url('https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1980&q=90');
+}
+
+.clip-lt {
+  @media screen(lg) {
+  -webkit-clip-path: polygon(14% 0,100% 0,100% 100%,0 100%);
+    clip-path: polygon(14% 0,100% 0,100% 100%,0);
+  }
+}
+
+/* Custom CSS end */

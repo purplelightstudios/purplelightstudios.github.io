@@ -1,0 +1,10 @@
+# Ignore generated site files
+/_site
+node_modules
+hugo
+public
+resources
+/assets/*/out
+.hugo_build.lock
+.hugo
+hugo.exe

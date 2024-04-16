@@ -1,0 +1,51 @@
+{
+  "name": "TailBliss",
+  "version": "0.1.1",
+  "description": "Hugo + Alpine.js + TailwindCSS",
+  "main": "index.js",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "alpinejs": "^3.13.0",
+    "autoprefixer": "^10.4.15",
+    "concurrently": "^8.2.1",
+    "node-sass": "^9.0.0",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "start": "concurrently npm:watch:*",
+    "hugo-local": "concurrently npm:build-stars npm:watch:tw npm:watch-hugo-local",
+    "win": "powershell.exe -ExecutionPolicy Bypass -File \".run-win.ps1\" ",
+    "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/out/style.css --watch",
+    "watch:hugo": "hugo server -D",
+    "watch-hugo-local": "./.hugo server -D",
+    "build-styles": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/out/style.css",
+    "build-stars": "node-sass --include-path scss ./assets/css/stars.scss ./assets/css/out/stars.min.css --output-style compressed",
+    "build": "hugo --minify --verbose",
+    "test": "hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nusserstudios/tailbliss.git"
+  },
+  "keywords": [
+    "hugo",
+    "tailwind",
+    "tailwindcss",
+    "alpinejs",
+    "minimal",
+    "responsive",
+    "light mode",
+    "dark mode",
+    "hugo blog",
+    "categories",
+    "tags"
+  ],
+  "author": "NusserStudios",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nusserstudios/tailbliss/issues"
+  },
+  "homepage": "https://github.com/nusserstudios/tailbliss"
+}
