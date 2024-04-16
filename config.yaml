@@ -55,7 +55,11 @@ params:
   ShowSponsors: false
   IncludeStars: true
   NavbarSizeClass: max-w-full
-  DisableStayUptodate: false
+
+  secondaryTitles: Legal,Contact,Blog
+  DisableStayUptodateHome: false
+  DisableStayUptodateList: false
+  DisableStayUptodateSingle: false
 
   GeneralHtmlClass: dark # Set to dark and DisableThemeToggle to run theme in dark mode by default
   DisableThemeToggle: true
@@ -81,7 +85,7 @@ params:
     content:
       - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
       - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
-      - text: "TODO: More about us... BUTTON"
+    contentLink: More info->/about/
   moreDetails:
     heading: "Hand-made solutions for game developers"
     image: "/geppetto-ai.png"
