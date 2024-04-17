@@ -77,7 +77,7 @@ params:
     VideoUrl: https://videos.pexels.com/video-files/8303104/8303104-hd_1920_1080_24fps.mp4
     VideoType: video/mp4
     QuoteTitle: "Empowering"
-    Quotes: "Content creators, Web developers, Streamers, Innovators, Game developers"
+    Quotes: "Content creators,Web developers,Streamers,Innovators,Game developers"
 
   details:
     heading: "About us"
