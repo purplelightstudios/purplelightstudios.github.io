@@ -56,7 +56,7 @@ params:
   IncludeStars: true
   NavbarSizeClass: max-w-full
 
-  secondaryTitles: Legal,Contact,Blog
+  secondaryTitles: Legal,Contact
   DisableStayUptodateHome: false
   DisableStayUptodateList: false
   DisableStayUptodateSingle: false
@@ -115,9 +115,9 @@ params:
       - text: "News, releases and devlogs."
 
   stayUpToDate:
-    heading: "Stay Up to Date"
+    heading: "Let's talk!"
     content:
-      - text: "Follow us and get access to amazing open-source technology!"
+      - text: "Contact us and schedule an appoinment to discuss your needs."
     showForm: false
     showSocial: true
     action: "#"
