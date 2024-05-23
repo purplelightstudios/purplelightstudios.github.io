@@ -53,7 +53,7 @@ params:
   ShowFullIntroSlide: false
   ShowSimpleIntroSlide: false
   ShowSponsors: false
-  IncludeStars: true
+  IncludeStars: false
   NavbarSizeClass: max-w-full
 
   secondaryTitles: Legal,Contact
@@ -64,20 +64,36 @@ params:
   GeneralHtmlClass: dark # Set to dark and DisableThemeToggle to run theme in dark mode by default
   DisableThemeToggle: true
 
-  title_description: "Empowering programmers"
-  callToAction: Streaming Tech
-  heroImage: /game.png
   author: PurpleLight Studios
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "For a new age"
-  description: "Engage with your enterprise clients or your community followers using the best streaming solutions in the market. Simplify your technology stack without compromising quality."
 
   FullIntroVideo:
+    title: Streaming Tech
+    subtitle: For a new age
+    description: "Engage with your enterprise clients or your community followers using the best streaming solutions in the market. Simplify your technology stack without compromising quality."
+
     VideoUrl: https://videos.pexels.com/video-files/8303104/8303104-hd_1920_1080_24fps.mp4
     VideoType: video/mp4
+
+    Link: More info->/about/
+
+    EnableQuotes: true
     QuoteTitle: "Empowering"
     Quotes: "Content creators,Web developers,Streamers,Innovators,Game developers"
+
+  solutions:
+    heading: "What we do"
+    subheading: "Simplifying technology workflows"
+    content:
+      - title: "Videogame creation"
+        text: "We create videogames and realtime technology using in-house solutions or engines like Unreal or Unity."
+        link: "Contact us->/contact/"
+        icon: gamepad
+      - title: "Open Source"
+        text: "Our team is commited to create open solutions that anyone, anywhere can start using for free."
+        icon: computer
+        link: "Open repositories->https://github.com/equilaterus"
 
   details:
     heading: "About us"
