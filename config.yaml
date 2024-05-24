@@ -76,7 +76,9 @@ params:
     VideoUrl: https://videos.pexels.com/video-files/8303104/8303104-hd_1920_1080_24fps.mp4
     VideoType: video/mp4
 
-    Link: More info->/about/
+    link:
+      text: More info
+      url: /about/
 
     EnableQuotes: true
     QuoteTitle: "Empowering"
@@ -88,12 +90,16 @@ params:
     content:
       - title: "Videogame creation"
         text: "We create videogames and realtime technology using in-house solutions or engines like Unreal or Unity."
-        link: "Contact us->/contact/"
+        link:
+          text: Contact us
+          url: /contact/
         icon: gamepad
       - title: "Open Source"
         text: "Our team is commited to create open solutions that anyone, anywhere can start using for free."
         icon: computer
-        link: "Open repositories->https://github.com/equilaterus"
+        link:
+          text: Open repositories
+          url: https://github.com/equilaterus"
 
   details:
     heading: "About us"
