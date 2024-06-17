@@ -84,30 +84,106 @@ params:
     QuoteTitle: "Empowering"
     Quotes: "Content creators,Web developers,Streamers,Innovators,Game developers"
 
+  AboutUsIntro:
+    title: About us
+    subtitle: Who we are
+    description: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
+    image: "/streaming.jpg"
+
+  AboutUs:
+    heading: "Our mission"
+    subheading: "Empower creative people, using technology as a foundation, to take on high risk projects without compromising quality or artistic vision."
+    content:
+      - title: "Streaming technology"
+        text: "We create high quality streaming solutions to deliver media contents at massive scale."
+        link:
+          text: Contact us
+          url: /contact/
+        icon: gamepad
+
+  ServicesIntro:
+    title: Our services
+    subtitle: How do we work?
+    description: "We work with clients from Colombia and United States of America that need to build custom software.
+From Custom developments to Outsourced developers, we've got you covered with remote but agile solutions."
+    image: "/services.jpg"
+
+  streaming:
+    heading: "Streaming"
+    image: "/game-2.png"
+    content:
+      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
+      - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
+    link:
+      text: Read more
+      url: /about
+  software:
+    heading: "Software"
+    image: "/geppetto-ai.png"
+    content:
+      - text: "We believe that programming is about solving real problems, that is why our code is rocksolid while being fast and easy to understand. Our team has worked on different platforms, engines and toolkits including Unity an Unreal Engine."
+      - text: "With that experience, we have started our journey of building a C powered game engine."
+      - text: "Stay tunned for upcoming updates."
+    link:
+      text: Read more
+      url: /about
+  consulting:
+    heading: "Consulting"
+    image: "/game-2.png"
+    content:
+      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
+      - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
+    link:
+      text: Read more
+      url: /about
+  openSource:
+    heading: "Open Source"
+    image: "/game-2.png"
+    content:
+      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
+      - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
+    link:
+      text: Read more
+      url: /about
+
   solutions:
     heading: "What we do"
     subheading: "Simplifying technology workflows"
     content:
-      - title: "Videogame creation"
-        text: "We create videogames and realtime technology using in-house solutions or engines like Unreal or Unity."
+      - title: "Streaming technology"
+        text: "We create high quality streaming solutions to deliver media contents at massive scale."
+        link:
+          text: Contact us
+          url: /contact/
+        icon: gamepad
+      - title: "Software development"
+        text: "We offer remote third party development services, whenever your solution requires web, deskop or mobile coding, we create high quality software using industry best practices and top notch technology."
+        link:
+          text: Contact us
+          url: /contact/
+        icon: gamepad
+      - title: "Consulting"
+        text: "For projects requiring help implementing streaming solutions, new technology or agile practices, our industry experts can help you tunning your dev-team boosting your productivity."
         link:
           text: Contact us
           url: /contact/
         icon: gamepad
       - title: "Open Source"
-        text: "Our team is commited to create open solutions that anyone, anywhere can start using for free."
+        text: "Our team is commited to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
         icon: computer
         link:
           text: Open repositories
           url: https://github.com/equilaterus"
 
   details:
-    heading: "About us"
+    heading: "Who we are"
     image: "/game-2.png"
     content:
       - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
       - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
-    contentLink: More info->/about/
+    link:
+      text: Read more
+      url: /about
   moreDetails:
     heading: "Hand-made solutions for game developers"
     image: "/geppetto-ai.png"
@@ -171,6 +247,14 @@ menu:
       name: Home
       url: /
       weight: 10
+    - identifier: services
+      name: Services
+      url: /services
+      weight: 11
+    - identifier: about
+      name: About
+      url: /about
+      weight: 12
     - identifier: blog
       name: Blog
       url: /posts/
