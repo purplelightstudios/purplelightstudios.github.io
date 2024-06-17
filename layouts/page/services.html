@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<main>
+  {{ if not hugo.IsProduction }}
+  {{ partial "debug" }}
+  {{ end }}
+
+  {{ partial "slide-fullintro"  (dict "Context" .Site.Params.ServicesIntro ) }}
+  {{ partial "section-right" (dict "Context" .Site.Params.Streaming ) }}
+  {{ partial "section-left" (dict "Context" .Site.Params.Software ) }}
+  {{ partial "section-right" (dict "Context" .Site.Params.Consulting ) }}
+  {{ partial "section-left" (dict "Context" .Site.Params.OpenSource ) }}
+  {{ .Content }}
+  {{ partial "stayuptodate" . }}
+</main>
+{{ end }}
