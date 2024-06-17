@@ -5,25 +5,20 @@ draft: false
 language: en
 description: About Us
 featured_image: ../assets/images/featured/featured-img-placeholder.png
+layout: "about"
 ---
 
 <!-- @format -->
-<section class="lg:pb-24">
+<section class="lg:pb-24 text-white">
   <div class="max-w-screen-md px-4 mx-auto text-center">
-    <h2>Who we are?</h2>
-    <p class="mb-8 font-light text-gray-500 lg:mb-16 dark:text-gray-400 text-2xl">
-      We are a team of talented an passionate professionals....
-    </p>
-    <h2>Our mission</h2>
-    <p class="mb-8 font-light text-gray-500 lg:mb-16 dark:text-gray-400 text-2xl">
-      Our mission
-    </p>
-    <p class="text-2xl">
-      We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers.
-    </p>
-    <p class="text-2xl">
-      <b>Email:</b><br />
-      <a href="mailto:info@purplelightstudios.com">info@purplelightstudios.com</a>
-    </p>
+    <h2 class="text-2xl">Our founders</h2>
+    <div class="flex grid grid-cols-1 sm:grid-cols-2 sm:gap-4 ">
+      <div class="flex flex-col items-center">
+        <img class="object-fit w-36 h-36 rounded-full" src="/img/f1.jpg" alt="Daniel Canizares" />
+        <p>Daniel</p>
+        <p>Profile</p>
+      </div>
+    </div>
+      
   </div>
 </section>

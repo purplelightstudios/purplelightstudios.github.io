@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<main>
+  {{ if not hugo.IsProduction }}
+  {{ partial "debug" }}
+  {{ end }}
+
+  {{ partial "slide-fullintro"  (dict "Context" .Site.Params.AboutUsIntro ) }}
+  {{ partial "section-centered" (dict "Context" .Site.Params.AboutUs ) }}
+  {{ .Content }}
+  {{ partial "stayuptodate" . }}
+</main>
+{{ end }}
