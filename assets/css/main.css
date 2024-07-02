@@ -26,48 +26,12 @@
     color: white !important;
 }
 
-@keyframes tv-animated {
+@keyframes light-animated {
 	0% {
-		filter: brightness(10%);
-	}
-	5% {
-		filter: brightness(130%);
-	}
-	10% {
-		filter: brightness(80%);
-	}
-	15% {
-		filter: brightness(85%);
-	}
-	25% {
-		filter: brightness(100%);
-	}
-	30% {
-		filter: brightness(120%);
-	}
-	35% {
-		filter: brightness(80%);
-	}
-	40% {
-		filter: brightness(90%);
-	}
-	45% {
-		filter: brightness(70%);
-	}
-	60% {
-		filter: brightness(100%);
-	}
-	70% {
-		filter: brightness(120%);
-	}
-	80% {
-		filter: brightness(80%);
-	}
-	90% {
-		filter: brightness(70%);
+		filter: brightness(50%);
 	}
 	100% {
-		filter: brightness(10%);
+		filter: brightness(120%);
 	}
 }
 
@@ -89,7 +53,7 @@
 }
 
 .hero-image {
-  animation: tv-animated 10s linear infinite;
+  animation: light-animated 4s alternate infinite;
 }
 
 /* Diagonal cut */

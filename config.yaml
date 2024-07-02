@@ -49,6 +49,7 @@ markup:
       xhtml: false
 
 params:
+  title_description: Streaming Tech for a new age
   ShowFullIntroVideoSlide: true
   ShowFullIntroSlide: false
   ShowSimpleIntroSlide: false
@@ -104,8 +105,8 @@ params:
   ServicesIntro:
     title: Our services
     subtitle: How do we work?
-    description: "We work with clients from Colombia and United States of America that need to build custom software.
-From Custom developments to Outsourced developers, we've got you covered with remote but agile solutions."
+    description: "We work with clients from Colombia and United States of America that need to implement high quality streaming solutions.
+From Cloud Solutions, Custom Codecs and even custom developments, we've got you covered with our tech solutions!"
     image: "/services.jpg"
 
   streaming:
