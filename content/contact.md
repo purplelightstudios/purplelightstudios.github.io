@@ -14,6 +14,7 @@ description: Contact
     </p>
     <p class="text-2xl">
       <b>Address:</b><br />
+      8 The Green. STE B Dover, DE 19901.
     </p>
     <p class="text-2xl">
       <b>Email:</b><br />
