@@ -95,12 +95,12 @@ params:
     heading: "Our mission"
     subheading: "Empower creative people, using technology as a foundation, to take on high risk projects without compromising quality or artistic vision."
     content:
-      - title: "Streaming technology"
-        text: "We create high quality streaming solutions to deliver media contents at massive scale."
-        link:
-          text: Contact us
-          url: /contact/
-        icon: gamepad
+      - title: "Nearshore"
+        text: "High quality outsourcing that is commited with your vision and you values"
+        icon: people-arrows
+      - title: "Excellence"
+        text: "Flexible solutions to fit your needs build by elite developers at reasonable prices"
+        icon: ranking-stars
 
   ServicesIntro:
     title: Our services
