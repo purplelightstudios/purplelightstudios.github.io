@@ -8,7 +8,7 @@ summary: "We have released OBS Optimized Pre-Alpha. Enjoy early access and help 
 description: "We have released OBS Optimized Pre-Alpha. Enjoy early access and help us reporting bugs."
 author: PurpleLightStudios
 categories: Releases
-tags: Aseprite, Art
+tags: OBS, Streaming
 ---
 
 We have released OBS Optimized Pre-Alpha. Enjoy early access and help us reporting bugs.
