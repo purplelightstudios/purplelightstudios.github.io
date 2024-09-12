@@ -110,42 +110,48 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     image: "/services.jpg"
 
   streaming:
-    heading: "Streaming"
-    image: "/game-2.png"
+    heading: "Streaming technology"
+    image: "/a.jpg"
     content:
-      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
+      - text: "We create high quality streaming solutions to deliver media contents at massive scale."
       - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
+      - text: "Contact us and start a painless content creator journey!"
     link:
-      text: Read more
-      url: /about
+      text: Contact us
+      url: /contact
   software:
-    heading: "Software"
-    image: "/geppetto-ai.png"
+    heading: "Software development"
+    image: "/b.jpg"
     content:
-      - text: "We believe that programming is about solving real problems, that is why our code is rocksolid while being fast and easy to understand. Our team has worked on different platforms, engines and toolkits including Unity an Unreal Engine."
-      - text: "With that experience, we have started our journey of building a C powered game engine."
-      - text: "Stay tunned for upcoming updates."
+      - text: "We offer remote third party development services, whenever your solution requires web, deskop or mobile coding, we create high quality software using industry best practices and top notch technology."
+      - text: "Our software is written using the best tools in the market and appliying the best software design practices including JS, TS, Rust, C/C++, .NET, and many other technologies."
+      - text: "Contact us and start your custom development with a highly qualified team of software engineers."
     link:
-      text: Read more
-      url: /about
+      text: Contact us
+      url: /contact
   consulting:
     heading: "Consulting"
-    image: "/game-2.png"
+    image: "/c.jpg"
     content:
-      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
-      - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
+      - text: "For projects requiring help implementing streaming solutions, new technology or agile practices, our industry experts can help you tunning your dev-team boosting your productivity."
+      - text: "- Streaming experts."
+      - text: "- Agile leaders and scrum masters."
+      - text: "- Software consulting."
     link:
-      text: Read more
-      url: /about
+      text: Contact us
+      url: /contact
+
   openSource:
     heading: "Open Source"
-    image: "/game-2.png"
+    image: "/intro-2.jpg"
     content:
-      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
-      - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
+      - text: "Our team is commited to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
+      - text: "- Custom OBS versions optimized for the heaviest workloads."
+      - text: "- Aseprite UVPadder, PixelSkinGenerator and Exporter to Paper2D (Unreal Engine)"
+      - text: "- More projects comming soon!"
     link:
-      text: Read more
-      url: /about
+      text: Official GitHub
+      url: https://github.com/purplelightstudios
 
   solutions:
     heading: "What we do"
@@ -154,31 +160,31 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
       - title: "Streaming technology"
         text: "We create high quality streaming solutions to deliver media contents at massive scale."
         link:
-          text: Contact us
-          url: /contact/
+          text: Our services
+          url: /services/
         icon: gamepad
       - title: "Software development"
         text: "We offer remote third party development services, whenever your solution requires web, deskop or mobile coding, we create high quality software using industry best practices and top notch technology."
         link:
-          text: Contact us
-          url: /contact/
+          text: Our services
+          url: /services/
         icon: gamepad
       - title: "Consulting"
         text: "For projects requiring help implementing streaming solutions, new technology or agile practices, our industry experts can help you tunning your dev-team boosting your productivity."
         link:
-          text: Contact us
-          url: /contact/
+          text: Our services
+          url: /services/
         icon: gamepad
       - title: "Open Source"
         text: "Our team is commited to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
         icon: computer
         link:
-          text: Open repositories
-          url: https://github.com/equilaterus"
+          text: Our services
+          url: /services/
 
   details:
     heading: "Who we are"
-    image: "/game-2.png"
+    image: "/intro-1.jpg"
     content:
       - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
       - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
@@ -186,12 +192,17 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
       text: Read more
       url: /about
   moreDetails:
-    heading: "Hand-made solutions for game developers"
-    image: "/geppetto-ai.png"
+    heading: "Community driven"
+    image: "/com.jpg"
     content:
-      - text: "We believe that programming is about solving real problems, that is why our code is rocksolid while being fast and easy to understand. Our team has worked on different platforms, engines and toolkits including Unity an Unreal Engine."
-      - text: "With that experience, we have started our journey of building a C powered game engine."
-      - text: "Stay tunned for upcoming updates."
+      - text: "We believe in the power of communities so we are fully commited with open source solutions, sharing and contributing to different projects around the world."
+      - text: "- Custom OBS versions optimized for the heaviest workloads."
+      - text: "- Aseprite UVPadder, PixelSkinGenerator and Exporter to Paper2D (Unreal Engine)"
+      - text: "- More projects comming soon!"
+    link:
+          text: Our services
+          url: /services/
+
   sponsors:
     heading: "Backed by world-renowned investors"
     content:
