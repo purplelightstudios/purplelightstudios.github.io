@@ -162,19 +162,19 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
         link:
           text: Our services
           url: /services/
-        icon: gamepad
+        icon: towercell
       - title: "Software development"
         text: "We offer remote third party development services, whenever your solution requires web, deskop or mobile coding, we create high quality software using industry best practices and top notch technology."
         link:
           text: Our services
           url: /services/
-        icon: gamepad
+        icon: laptop-code
       - title: "Consulting"
         text: "For projects requiring help implementing streaming solutions, new technology or agile practices, our industry experts can help you tunning your dev-team boosting your productivity."
         link:
           text: Our services
           url: /services/
-        icon: gamepad
+        icon: people-group
       - title: "Open Source"
         text: "Our team is commited to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
         icon: computer
@@ -234,6 +234,9 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     label: "Email address"
     placeholder: "Enter your email"
     button: "Notify me"
+    link:
+        text: Contact us
+        url: /contact/
 
   social:
     github:
