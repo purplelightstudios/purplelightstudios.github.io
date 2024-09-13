@@ -88,7 +88,7 @@ params:
   AboutUsIntro:
     title: About us
     subtitle: Who we are
-    description: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
+    description: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficiency to our costumers."
     image: "/streaming.jpg"
 
   AboutUs:
@@ -123,8 +123,8 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     heading: "Software development"
     image: "/b.jpg"
     content:
-      - text: "We offer remote third party development services, whenever your solution requires web, deskop or mobile coding, we create high quality software using industry best practices and top notch technology."
-      - text: "Our software is written using the best tools in the market and appliying the best software design practices including JS, TS, Rust, C/C++, .NET, and many other technologies."
+      - text: "We offer remote third party development services, whenever your solution requires web, destkop or mobile coding, we create high quality software using industry best practices and top notch technology."
+      - text: "Our software is written using the best tools in the market and applying the best software design practices including JS, TS, Rust, C/C++, .NET, and many other technologies."
       - text: "Contact us and start your custom development with a highly qualified team of software engineers."
     link:
       text: Contact us
@@ -133,7 +133,7 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     heading: "Consulting"
     image: "/c.jpg"
     content:
-      - text: "For projects requiring help implementing streaming solutions, new technology or agile practices, our industry experts can help you tunning your dev-team boosting your productivity."
+      - text: "For projects requiring help implementing streaming solutions, new technology or agile practices, our industry experts can help you tuning your dev-team boosting your productivity."
       - text: "- Streaming experts."
       - text: "- Agile leaders and scrum masters."
       - text: "- Software consulting."
@@ -164,13 +164,13 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
           url: /services/
         icon: towercell
       - title: "Software development"
-        text: "We offer remote third party development services, whenever your solution requires web, deskop or mobile coding, we create high quality software using industry best practices and top notch technology."
+        text: "We offer remote third party development services, whenever your solution requires web, desktop or mobile coding, we create high quality software using industry best practices and top notch technology."
         link:
           text: Our services
           url: /services/
         icon: laptop-code
       - title: "Consulting"
-        text: "For projects requiring help implementing streaming solutions, new technology or agile practices, our industry experts can help you tunning your dev-team boosting your productivity."
+        text: "For projects requiring help implementing streaming solutions, new technology or agile practices, our industry experts can help you tuning your dev-team boosting your productivity."
         link:
           text: Our services
           url: /services/
@@ -186,7 +186,7 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     heading: "Who we are"
     image: "/intro-1.jpg"
     content:
-      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficency to our costumers."
+      - text: "We provide the best video, audio and data streaming technologies alongside with consulting to ensure the best quality and efficiency to our costumers."
       - text: "Our team develops customized video and audio codecs with one goal in mind: optimization without quality lost."
     link:
       text: Read more
