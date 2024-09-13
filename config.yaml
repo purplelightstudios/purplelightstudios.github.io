@@ -96,7 +96,7 @@ params:
     subheading: "Empower creative people, using technology as a foundation, to take on high risk projects without compromising quality or artistic vision."
     content:
       - title: "Nearshore"
-        text: "High quality outsourcing that is commited with your vision and you values"
+        text: "High quality outsourcing that is committed with your vision and you values"
         icon: people-arrows
       - title: "Excellence"
         text: "Flexible solutions to fit your needs build by elite developers at reasonable prices"
@@ -123,7 +123,7 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     heading: "Software development"
     image: "/b.jpg"
     content:
-      - text: "We offer remote third party development services, whenever your solution requires web, destkop or mobile coding, we create high quality software using industry best practices and top notch technology."
+      - text: "We offer remote third party development services, whenever your solution requires web, desktop or mobile coding, we create high quality software using industry best practices and top notch technology."
       - text: "Our software is written using the best tools in the market and applying the best software design practices including JS, TS, Rust, C/C++, .NET, and many other technologies."
       - text: "Contact us and start your custom development with a highly qualified team of software engineers."
     link:
@@ -145,10 +145,10 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     heading: "Open Source"
     image: "/intro-2.jpg"
     content:
-      - text: "Our team is commited to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
+      - text: "Our team is committed to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
       - text: "- Custom OBS versions optimized for the heaviest workloads."
       - text: "- Aseprite UVPadder, PixelSkinGenerator and Exporter to Paper2D (Unreal Engine)"
-      - text: "- More projects comming soon!"
+      - text: "- More projects coming soon!"
     link:
       text: Official GitHub
       url: https://github.com/purplelightstudios
@@ -176,7 +176,7 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
           url: /services/
         icon: people-group
       - title: "Open Source"
-        text: "Our team is commited to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
+        text: "Our team is committed to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
         icon: computer
         link:
           text: Our services
@@ -195,10 +195,10 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     heading: "Community driven"
     image: "/com.jpg"
     content:
-      - text: "We believe in the power of communities so we are fully commited with open source solutions, sharing and contributing to different projects around the world."
+      - text: "We believe in the power of communities so we are fully committed with open source solutions, sharing and contributing to different projects around the world."
       - text: "- Custom OBS versions optimized for the heaviest workloads."
       - text: "- Aseprite UVPadder, PixelSkinGenerator and Exporter to Paper2D (Unreal Engine)"
-      - text: "- More projects comming soon!"
+      - text: "- More projects coming soon!"
     link:
           text: Our services
           url: /services/
@@ -227,7 +227,7 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
   stayUpToDate:
     heading: "Let's talk!"
     content:
-      - text: "Contact us and schedule an appoinment to discuss your needs."
+      - text: "Contact us and schedule an appointment to discuss your needs."
     showForm: false
     showSocial: true
     action: "#"
