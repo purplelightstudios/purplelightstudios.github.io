@@ -197,7 +197,7 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     content:
       - text: "We believe in the power of communities so we are fully committed with open source solutions, sharing and contributing to different projects around the world."
       - text: "- Custom OBS versions optimized for the heaviest workloads."
-      - text: "- Aseprite UVPadder, PixelSkinGenerator and Exporter to Paper2D (Unreal Engine)"
+      - text: "- Open source collaborations."
       - text: "- More projects coming soon!"
     link:
           text: Our services
@@ -238,24 +238,6 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
         text: Contact us
         url: /contact/
 
-  social:
-    github:
-      enabled: true
-      url: 'https://github.com/purplelightstudios'
-    facebook:
-      enabled: true
-      url: 'https://facebook.com/purplelightstudios'
-    instagram:
-      enabled: false
-      url: 'https://instagram.com/purplelightstudios'
-    linkedin:
-      enabled: true
-      url: 'https://www.linkedin.com/company/purplelightstudios'
-    twitter:
-      enabled: true
-      url: '@purplelightstudios'
-
-
 menu:
   main:
     - identifier: home
@@ -270,10 +252,6 @@ menu:
       name: About
       url: /about
       weight: 12
-    - identifier: blog
-      name: Blog
-      url: /posts/
-      weight: 20
     - identifier: dropdown
       pre: complexdropdown
       name: Open-Source
@@ -313,10 +291,6 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /posts/
-      weight: 20
     - identifier: contact
       name: Contact
       url: /contact/
