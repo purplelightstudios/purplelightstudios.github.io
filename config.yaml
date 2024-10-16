@@ -147,7 +147,7 @@ From Cloud Solutions, Custom Codecs and even custom developments, we've got you 
     content:
       - text: "Our team is committed to create open solutions that anyone, anywhere can start using for free. As part of our mission to empower programmers and creators we are constantly contributing to the open source community."
       - text: "- Custom OBS versions optimized for the heaviest workloads."
-      - text: "- Aseprite UVPadder, PixelSkinGenerator and Exporter to Paper2D (Unreal Engine)"
+      - text: "- Open Source collaborations."
       - text: "- More projects coming soon!"
     link:
       text: Official GitHub
@@ -252,10 +252,6 @@ menu:
       name: About
       url: /about
       weight: 12
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Open-Source
-      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
@@ -272,19 +268,6 @@ menu:
     - identifier: about
       name: About
       url: /about/
-      weight: 20
-  dropdown:
-    - identifier: github
-      pre: piechart # can be stars, comments or piechart
-      name: Custom OBS
-      post: "GitHub repo"
-      url: "https://github.com/purplelightstudios/obs-studio-optimized"
-      weight: 10
-    - identifier: githubgs
-      pre: stars # can be stars, comments or piechart
-      name: Other projects
-      post: "GitHub profile"
-      url: "https://github.com/purplelightstudios"
       weight: 20
   footer:
     - identifier: home
